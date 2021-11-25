@@ -1,0 +1,371 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.users-main{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.users-box{
+
+  border: 2px solid rgb(111, 182, 240) ;
+  border-radius: 40px;
+  width:600px;
+  height: 800px;
+  margin:10px;
+  overflow: scroll;
+}
+
+#search{
+  
+margin :5px;
+width: 100px;
+
+}
+
+.serc-lab{
+
+ 
+  margin-right: 30px;
+
+}
+
+.serc-btn{
+
+  padding: 8px 24px;
+  background-color: rgb(243, 164, 18);
+  margin-left: 20px;
+
+}
+
+
+
+.user-box{
+  border: 4px solid; 
+  min-width: 450px;
+  min-height: 150px;
+  margin: 8px;
+  padding: 10px;
+  
+  
+  
+}
+
+.completed{
+
+  border-color:rgb(17, 128, 26);
+}
+
+.notcompleted{
+
+  border-color: red;
+}
+
+.user-id{
+
+  float: left;
+ 
+  padding: 5px;
+}
+
+.user-lbl{
+  padding: 5px;
+  font-weight: bold;
+}
+
+.usr-inp {
+  float: left;
+}
+
+/* .grid-btn{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-between;
+  
+} */
+
+.o-data{
+
+  margin-right: 200px;
+  padding: 5px;
+  background-color: rgb(167, 166, 166);
+  
+ 
+}
+
+.upd-btn-gen{
+  margin-left: 200px;
+}
+
+.upd-btn{
+margin-left: 5px;
+padding: 8px 16px;
+background-color: rgb(219, 170, 35) ;
+margin: 5px;
+  
+}
+
+
+#hide-det{
+
+  border: 1px solid black;
+  border-radius: 40px;
+  margin: 10px;
+  background-color: rgb(223, 221, 221);
+}
+
+.isVisible{
+  visibility: visible;
+
+}
+.isNotVisible{
+visibility: hidden;
+}
+
+.divColor {
+  background-color: orange;
+}
+
+.user-tasks{
+
+  display: grid;
+  border: 1px solid white;
+  min-width:600px;
+  min-height: 800px;
+  
+
+}
+.todos-linn1{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+.todos-temp-name{
+
+  font-size: 25px;
+  margin: 5px;
+}
+
+
+
+
+.todo-add-btn
+{
+
+padding: 12px 24px;
+margin: 5px;
+margin-left: 30px ;
+background-color: rgb(221, 182, 74) ;
+}
+
+.todos-box{
+  margin: 50px;
+  margin-bottom: 350px;
+  width: 520px;
+  height: 400px;
+  border: 1px solid black;
+  overflow: scroll;
+
+}
+
+.todo-temp-comp{
+
+  border: 2px solid purple;
+  width: 440px;
+  height: 120px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.todo-title{
+  float: left;
+  margin-left: 10px;
+}
+
+.todo-complete{
+  float: left;
+  margin-left: 10px;
+}
+
+.complete-btn{
+  
+  background-color: rgb(221, 182, 74) ;
+  padding: 8px 26px;
+  margin: 10px;
+  margin-left: 50px;
+
+
+}
+
+.post-list{
+
+  /* min-width :480px;
+  min-height: 150px; */
+margin-top: -300px;
+
+
+}
+
+
+.posts-linn1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 200px;
+
+}
+
+.posts-temp-name{
+  font-size: 25px;
+  margin: 5px;
+  margin-left: 100px;
+
+}
+.poot-add-btn{
+  padding: 12px 24px;
+margin: 5px;
+margin-left: 30px ;
+background-color: rgb(221, 182, 74) ;
+}
+
+.posts-box{
+  margin: 50px;
+  margin-top: -200px;
+  width: 520px;
+  height: 400px;
+  border: 1px solid black;
+  overflow: scroll;
+
+}
+
+.post-temp-comp{
+  border: 2px solid purple;
+  width: 440px;
+  height: 120px;
+  margin: 10px;
+  margin-left: 20px;
+
+}
+
+.add-todo-box{
+
+  border: 1px solid white;
+  width: 600px;
+  height: 350px;
+  margin-bottom: 300px;
+  margin-left: 70px;
+}
+
+.add-post-box{
+  border: 1px solid white;
+  width: 600px;
+  height: 350px;
+  margin-top: -300px;
+  margin-left: 100px;
+  
+
+}
+
+.add-box{
+  border: 3px solid black;
+  width: 400px;
+  height: 200px;
+  margin:10px
+ 
+
+}
+
+.add-inp{
+
+  margin-top: 30px;
+  width: 150px;
+  height: 20px;
+  padding: 3px;
+
+
+}
+
+.btn-add-gen{
+
+  margin-left: 150px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+ 
+}
+.add-btn{
+
+  padding: 8px 20px;
+  margin: 3px;
+  background-color: rgb(221, 182, 74) ;
+  border: 1px solid blue;
+  
+ 
+ 
+
+}
+
+.add-user-box{
+
+  border: 3px solid black;
+  width: 600px;
+  height: 400px;
+  margin-left: -200px;
+  margin-top: 100px;
+  
+}
+
+.add-u-inp{
+  margin-top: 30px;
+  width: 150px;
+  height: 20px;
+  padding: 3px;
+  font-weight: bold;
+
+}
+
+.lbl-inp{
+  font-weight: bold;
+
+
+}
